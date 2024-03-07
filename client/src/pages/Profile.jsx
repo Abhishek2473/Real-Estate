@@ -160,7 +160,7 @@ text-center my-7'>Profile</h1>
   <input 
   defaultValue={currentUser.email} 
   ype="email" 
-  placeholder='email' 
+  placeholder='emaildjchd' 
   id='email'
   className='border p-3 rounded-lg'
     onChange={handleChange}/>
