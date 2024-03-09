@@ -165,9 +165,9 @@ text-center my-7'>Profile</h1>
   className='border p-3 rounded-lg'
     onChange={handleChange}/>
 
-
+ 
     <input 
-    type="password"
+    type="password"  
      placeholder='password' 
      id='password'
      className='border p-3 rounded-lg'
