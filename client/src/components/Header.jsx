@@ -27,8 +27,8 @@ export default function Header() {
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <Link to='/'>
           <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
-            <span className='text-slate-500'>Make</span>
-            <span className='text-slate-700'>Estate</span>
+            <span className='text-slate-500'>Urban</span>
+            <span className='text-slate-700'>Nest</span>
           </h1>
         </Link>
         <form
@@ -60,7 +60,7 @@ export default function Header() {
           <Link to='/profile'>
             {currentUser ? (
               <img
-                className='rounded-full h-7 w-7 object-cover'
+                className='rounded-full h-8 w-8 object-cover'
                 src={currentUser.avatar}
                 alt='profile'
               />
