@@ -1,7 +1,9 @@
 import React from 'react'
 import  {BrowserRouter,Routes,Route} from 'react-router-dom'
-import SignIn from './pages/SignIn.jsx'
+
+
 import Home from './pages/Home'
+import SignIn2 from './pages/SignIn2'
 import About from './pages/About'
 import SignUp from './pages/SignUp'
 import Profile from './pages/Profile'
@@ -16,7 +18,7 @@ export default function App() {
   <Header/>
   <Routes>
   <Route path='/' element={<Home/>}/>
-  <Route path='/sign-in' element={<SignIn/>}/>
+  <Route path='/sign-in' element={<SignIn2/>}/>
   <Route path='/sign-up' element={<SignUp/>}/>
   <Route path='/about' element={<About/>}/>
   <Route  element={<PrivateRoute/>}>
